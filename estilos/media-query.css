@@ -7,6 +7,11 @@
 
     #login{
         width: 70vw;
+        height: 300px;
+    }
+
+    div.campo > input{
+        margin: 10px 0px;
     }
 
     #imagem{
@@ -19,6 +24,15 @@
         float: right;
         width: 70%;
     }
+
+    #formulario > p{
+        font-size: 1em;
+        margin: 10px 0px;
+    }
+
+    form > div.campo{
+        margin: 10px 0px;
+    }
 }
 
 @media screen and (min-width: 992px){
@@ -28,6 +42,7 @@
 
     #login{
         width: 65vw;
+        height: 350px;
     }
 
     #imagem{
@@ -46,6 +61,19 @@
     }
 
     #formulario > p{
-        font-size: 1em;
+        font-size: 2em;
+    }
+
+    #formulario > p{
+        font-size: 1.2em;
+        margin: 15px 0px;
+    }
+
+    form > div.campo{
+        margin: 15px 0px;
+    }
+
+    form > input[type=submit]{
+        margin: 10px 0px;
     }
 }
